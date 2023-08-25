@@ -25,7 +25,7 @@ export default function Home() {
             <p className={cairo.className}>اختار اللي هيلعب</p>
             <div className="grid grid-cols-3 min-[321px]:grid-cols-4 gap-3">
               {players.map((player) => (
-                <Players player={player} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} />
+                <Players key={player.id} player={player} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} />
               ))}
             </div>
           </>
