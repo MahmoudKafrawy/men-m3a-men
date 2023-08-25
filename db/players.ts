@@ -19,4 +19,5 @@ export const players: IPlayer[] = [
   { id: 9, name: "عبدالله السادات", avatar: "/players/9.jpg" },
   { id: 10, name: "ياسر عبداللطيف", avatar: "/players/10.jpg" },
   { id: 11, name: "مهيمن ملوك", avatar: "/players/11.jpg" },
+  { id: 12, name: "محمود الحمامصي", avatar: "/players/12.jpg" },
 ];
