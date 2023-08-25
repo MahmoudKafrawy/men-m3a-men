@@ -2,8 +2,8 @@ import { players } from "@/db/players";
 import SlotCounter from "react-slot-counter";
 import PlayerCard from "./PlayerCard";
 function RollSlots({ teams }: { teams: any[] }) {
-  return teams.map((team) => (
-    <div className="my-4">
+  return teams.map((team, index) => (
+    <div className="my-4" key={index}>
       <SlotCounter
         duration={1.5}
         value={...team.map((t: any) => (
